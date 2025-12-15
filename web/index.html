@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title>Rat-Sec Arena 🐀🔥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="hud">
+    <div class="title">RAT-SEC ARENA 🐀</div>
+    <div class="stats">
+      <span>Score: <b id="score">0</b></span>
+      <span>Best: <b id="best">0</b></span>
+      <span>HP: <b id="hp">3</b></span>
+    </div>
+    <div class="btns">
+      <button id="btn-start">Start</button>
+      <button id="btn-add">+ Item API</button>
+      <button id="btn-list">List API</button>
+    </div>
+    <div id="api-out"></div>
+  </div>
+  <canvas id="game" width="900" height="520"></canvas>
+  <div class="tips">ZQSD/Flèches pour bouger • Espace = dash • /api/* pour l’API</div>
+  <script src="/game.js"></script>
+</body>
+</html>
