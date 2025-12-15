@@ -3,7 +3,7 @@
 # Disclaimer : .md généré par IA comme je fais en entreprise. Vérification effectuée évidemment.
 
 Ce projet constitue mon rendu pour le module **Docker / Conteneurisation**.  
-Il répond à l’ensemble des exigences du guide projet :contentReference[oaicite:1]{index=1} :
+Il répond à l’ensemble des exigences du guide projet :
 
 ✔ Stack multi-conteneurs  
 ✔ Séparation des réseaux (front / back)  
