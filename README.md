@@ -63,7 +63,7 @@ Ainsi, seule l’API passe par Nginx :
 
 # 🔐 Secrets (conforme au guide)
 
-Exigences respectées :contentReference[oaicite:3]{index=3} :
+Exigences respectées :
 
 - Le mot de passe PostgreSQL n’apparaît **ni dans le code**, ni dans les Dockerfiles  
 - Géré via `POSTGRES_PASSWORD_FILE`
@@ -123,7 +123,7 @@ Accès :
 
 # 🏭 Lancement en **production locale**
 
-Le guide exige de simuler un mode prod via un fichier override ou compose.prod.yml :contentReference[oaicite:4]{index=4}.
+Le guide exige de simuler un mode prod via un fichier override ou compose.prod.yml :
 
 Ici :
 
@@ -205,7 +205,7 @@ DB OK
 
 ## ✔ 5. Preuve de persistance (exigence du guide)
 
-➡ Le guide impose de démontrer la persistance via volumes Docker :contentReference[oaicite:5]{index=5}.
+➡ Le guide impose de démontrer la persistance via volumes Docker :
 
 Procédure :
 
