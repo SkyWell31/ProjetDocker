@@ -1,2 +1,7 @@
-# y'a rien à voir par là :)
-# j'ai tout fait en local mais sinon j'aurai fait un truc dedans :c
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: prod
+    volumes: []
